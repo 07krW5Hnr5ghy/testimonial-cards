@@ -3,8 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
-    width: 95vw;
+    gap:30px;
 }
 .first-card-wrapper{
     display: flex;
@@ -96,7 +95,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
+    padding: 20px 20px;
 }
 
 .second-card-footer{
@@ -105,4 +104,74 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+.third-card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.third-card-avatar-wrapper{
+    height:40%;
+    width:20%;
+    overflow: hidden;
+    border-radius: 10px;
+    display: none;
+}
+
+.third-card-avatar-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.third-card-upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.third-card-avatar-wrapper-mobile{
+    width:20%;
+    height: 65px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.third-card-avatar-wrapper-mobile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.third-card-info-wrapper{
+    height: 60%;
+    width: 90%;
+    color:white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius:10px;
+}
+
+.starts{
+    display:flex;
+    gap:5px;
+}
+
+.star{
+    font-size:30px;
+    color:gold;
+}
+
+.third-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
