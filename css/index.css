@@ -175,3 +175,72 @@
     align-items: center;
     padding: 0 20px;
 }
+
+.fourth-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-card{
+    height: 100%;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.fourth-card-text-container{
+    text-align: left;
+}
+
+.fourth-card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.fourth-card-img-wrapper-main{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.fourth-card-img-wrapper-main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fourth-card-img-wrapper{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.fourth-card-img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.fourth-card-button{
+    border: none;
+    background-color: transparent;
+    color:black;
+    font-size: 30px;
+}
+
+.name-container h4{
+    margin: 10px auto;
+}
