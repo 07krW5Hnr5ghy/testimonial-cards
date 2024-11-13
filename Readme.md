@@ -1,6 +1,6 @@
 # Changelog
 
-This project is an changelog component.
+This project are testimonial cards page.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This project is an changelog component.
 
 ## Demo
 
-To view the personal page, open the `index.html` file in a browser.
+To view the testimonial cards, open the `index.html` file in a browser.
 
 ## Technologies
 
