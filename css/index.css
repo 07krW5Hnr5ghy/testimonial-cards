@@ -124,10 +124,6 @@
 }
 
 .third-card-avatar-wrapper{
-    height:40%;
-    width:20%;
-    overflow: hidden;
-    border-radius: 10px;
     display: none;
 }
 
@@ -251,4 +247,120 @@
 
 .name-container h4{
     margin: 10px auto;
+}
+
+@media(min-width:750px) {
+    .cards-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .first-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:30%;
+        height: 100%;
+    }
+    .first-card-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        width:80%;
+        gap: 10px;
+    }
+    .image-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .second-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 100%;
+    }
+    .third-card-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 100%;
+        width: 60%;
+        gap:20px;
+    }
+    .third-card-avatar-wrapper-mobile{
+        display: none;
+    }
+    .third-card-avatar-wrapper{
+        width:40%;
+        overflow: hidden;
+        border-radius: 10px;
+        display: block;
+    }
+    
+    .third-card-avatar-wrapper img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .third-card-upper{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: end;
+        padding: 0 20px;
+        width: 60%;
+    }
+    .fourth-card-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+    }
+
+    .fourth-card-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+    }
+}
+
+@media(min-width:950px){
+    .third-card-avatar-wrapper{
+        width:40%;
+        overflow: hidden;
+        border-radius: 10px;
+        display: block;
+    }
+    
+    .third-card-avatar-wrapper img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .third-card-upper{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: end;
+        padding: 0 20px;
+        width: 60%;
+        height: 100%;
+    }
+
+    
 }
