@@ -6,7 +6,6 @@ This project are testimonial cards page.
 
 - [Demo](#demo)
 - [Technologies](#technologies)
-- [Structure](#structure)
 - [Usage](#usage)
 - [Contact](#contact)
 
@@ -20,13 +19,6 @@ This personal page is created with:
 
 - HTML
 - CSS
-
-## Structure
-
-The personal page contains the following sections:
-
-1. **Header**: Displays the name and profesion.
-2. **Changelog**: Contains bullet with the changes of a project.
 
 ## Usage
 
